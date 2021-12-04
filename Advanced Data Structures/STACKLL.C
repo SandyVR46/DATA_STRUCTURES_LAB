@@ -10,10 +10,11 @@ struct node *next;
 };  
 struct node *head;  
   
-void main ()  
-{  
-    int choice=0;     
-
+void main ()
+{
+    int choice=0;
+    clrscr();
+    printf("                **********STACK USING SINGLY LINKLIST**********               ");
     while(choice != 4)
     {
 	printf("\n\nChose one from the below options...\n");
@@ -59,7 +60,7 @@ void push ()
     }
     else
     {
-	printf("Enter the value");
+	printf("\nEnter the value: ");
 	scanf("%d",&val);
 	if(head==NULL)
 	{
@@ -74,7 +75,7 @@ void push ()
 	    head=ptr;
 
 	}
-	printf("Item pushed");
+	printf("\nItem pushed");
 
     }
 }
@@ -85,7 +86,7 @@ void pop()
     struct node *ptr;
     if (head == NULL)
     {
-	printf("Underflow");
+	printf("\nUnderflow");
     }
     else
     {
@@ -93,7 +94,7 @@ void pop()
 	ptr = head;
 	head = head->next;
 	free(ptr);
-	printf("Item popped");
+	printf("\nItem popped");
 
     }
 }
@@ -104,15 +105,15 @@ void display()
     ptr=head;
     if(ptr == NULL)
     {
-	printf("Stack is empty\n");
+	printf("\nStack is empty\n");
     }
     else
     {
-	printf("Printing Stack elements \n");
+	printf("\nPrinting Stack elements \n");
 	while(ptr!=NULL)
 	{
-	    printf("%d\n",ptr->val);
-            ptr = ptr->next;  
-        }  
-    }  
-}  
+	    printf("\n%d\n",ptr->val);
+	    ptr = ptr->next;
+	}
+    }
+}
