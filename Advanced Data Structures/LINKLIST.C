@@ -20,6 +20,7 @@ void main()
 	clrscr();
 	while(ch!=8)
 	{
+		print("**** LINKLIST ****");
 		printf("\n1.Insert First\n2. Insert Last\n3. Insert Position");
 		printf("\n4.Delete First\n5. Delete Last\n6. Delete  ");
 		printf("\n7.Display\n8. Exit");
