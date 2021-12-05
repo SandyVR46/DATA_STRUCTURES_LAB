@@ -17,7 +17,7 @@ struct node *head;
 void main()
   {
 	int ch;
-	printf("**** LINKLIST ****");
+	printf(" **** LINKLIST **** ");
 	clrscr();
 	while(ch!=8)
 	{
