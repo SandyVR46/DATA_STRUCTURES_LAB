@@ -14,7 +14,7 @@ int main()
   int ch,item,pos,n;
   InitializeCLL(&start,&end);
   clrscr();
-  printf("\nEnter the number of elements : ");
+  printf("\n Enter the number of elements : ");
   scanf("%d",&n);
   CreateCLL(&start,&end);
   while(ch!=4)
