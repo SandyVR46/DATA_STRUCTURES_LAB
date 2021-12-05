@@ -14,7 +14,7 @@ void main ()
 {
     int choice=0;
     clrscr();
-    printf("                **********STACK USING SINGLY LINKLIST**********               ");
+    printf("               **********STACK USING SINGLY LINKLIST**********               ");
     while(choice != 4)
     {
 	printf("\n\nChose one from the below options...\n");
