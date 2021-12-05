@@ -58,7 +58,7 @@ void main()
 				break;
 			}
 			case 8:{
-				printf("\nExisting");
+				printf("\nExiting");
 				break;
 			}
 			default:printf("\nInvalid");
